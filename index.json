@@ -1,0 +1,26 @@
+{
+  "some-meta-data": "dummy-index",
+  "packages": [
+    {
+      "name": "zlib",
+      "description": "Acton zlib package",
+      "repo_url": "https://github.com/actonlang/acton-zlib"
+    },
+    {
+      "name": "http2",
+      "description": "Acton HTTP/2 support",
+      "repo_url": "https://github.com/actonlang/acton-http2"
+    },
+    {
+      "name": "grpc",
+      "description": "Acton gRPC support",
+      "repo_url": "https://github.com/actonlang/acton-grpc"
+    },
+    {
+      "name": "snappy",
+      "description": "Acton Snappy compression package",
+      "repo_url": "https://github.com/actonlang/acton-snappy"
+    }
+  ]
+}
+
