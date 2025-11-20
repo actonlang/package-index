@@ -1,6 +1,8 @@
 name: Build Acton Package Index
 
 on:
+  push:
+    branches: [ main ]
   schedule:
     # Refresh the index daily
     - cron: '13 3 * * *'
