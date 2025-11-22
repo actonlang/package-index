@@ -2,24 +2,34 @@
   "some-meta-data": "dummy-index",
   "packages": [
     {
-      "name": "zlib",
-      "description": "Acton zlib package",
-      "repo_url": "https://github.com/actonlang/acton-zlib"
-    },
-    {
-      "name": "http2",
-      "description": "Acton HTTP/2 support",
-      "repo_url": "https://github.com/actonlang/acton-http2"
-    },
-    {
       "name": "grpc",
-      "description": "Acton gRPC support",
+      "description": "gRPC client",
       "repo_url": "https://github.com/actonlang/acton-grpc"
     },
     {
+      "name": "http2",
+      "description": "HTTP/2 client",
+      "repo_url": "https://github.com/actonlang/acton-http2"
+    },
+    {
+      "name": "netconf",
+      "description": "NETCONF client library",
+      "repo_url": "https://github.com/orchestron-orchestrator/netconf"
+    },
+    {
       "name": "snappy",
-      "description": "Acton Snappy compression package",
+      "description": "Snappy compression",
       "repo_url": "https://github.com/actonlang/acton-snappy"
+    },
+    {
+      "name": "yang",
+      "description": "A YANG lib including a parser, compiler, instance data structures and more",
+      "repo_url": "https://github.com/orchestron-orchestrator/acton-yang"
+    },
+    {
+      "name": "zlib",
+      "description": "zlib compression",
+      "repo_url": "https://github.com/actonlang/acton-zlib"
     }
   ]
 }
