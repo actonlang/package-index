@@ -1,6 +1,10 @@
 {
-  "some-meta-data": "dummy-index",
   "packages": [
+    {
+      "name": "actxcrypt",
+      "description": "Password hashing library",
+      "repo_url": "https://github.com/orchestron-orchestrator/actxcrypt"
+    },
     {
       "name": "grpc",
       "description": "gRPC client",
