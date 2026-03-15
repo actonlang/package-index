@@ -16,6 +16,11 @@
       "repo_url": "https://github.com/actonlang/acton-http2"
     },
     {
+      "name": "lmdb",
+      "description": "Lightning Memory-Mapped Database (LMDB) is an extraordinarily fast, memory-efficient key-value database",
+      "repo_url": "https://github.com/stratoweave/acton-lmdb"
+    },
+    {
       "name": "netconf",
       "description": "NETCONF client library",
       "repo_url": "https://github.com/orchestron-orchestrator/netconf"
