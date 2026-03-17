@@ -1,6 +1,11 @@
 {
   "packages": [
     {
+      "name": "http_router",
+      "description": "HTTP router library",
+      "repo_url": "https://github.com/stratoweave/http-router"
+    },
+    {
       "name": "actxcrypt",
       "description": "Password hashing library",
       "repo_url": "https://github.com/orchestron-orchestrator/actxcrypt"
