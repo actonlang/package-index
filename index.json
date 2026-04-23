@@ -36,6 +36,11 @@
       "repo_url": "https://github.com/actonlang/textfsm"
     },
     {
+      "name": "timeseries",
+      "description": "Time series helpers",
+      "repo_url": "https://github.com/stratoweave/timeseries"
+    },
+    {
       "name": "yang",
       "description": "A YANG lib including a parser, compiler, instance data structures and more",
       "repo_url": "https://github.com/orchestron-orchestrator/acton-yang"
