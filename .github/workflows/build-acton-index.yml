@@ -19,10 +19,17 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v5
-      - name: Prepare Pages content
+      - name: Build package index
+        env:
+          GITHUB_TOKEN: ${{ secrets.PACKAGE_INDEX_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p dist
-          cp index.json dist/index.json
+          python3 build_index.py \
+            --seed index.json \
+            --output dist/index.json \
+            --library-topic acton-library \
+            --app-topic acton-app \
+            --verbose
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
