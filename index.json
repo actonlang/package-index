@@ -3,7 +3,7 @@
     {
       "name": "actxcrypt",
       "description": "Password hashing library",
-      "repo_url": "https://github.com/orchestron-orchestrator/actxcrypt"
+      "repo_url": "https://github.com/stratoweave/actxcrypt"
     },
     {
       "name": "grpc",
@@ -21,9 +21,14 @@
       "repo_url": "https://github.com/stratoweave/acton-lmdb"
     },
     {
+      "name": "netcli",
+      "description": "A library for interacting with network device CLIs",
+      "repo_url": "https://github.com/stratoweave/netcli"
+    },
+    {
       "name": "netconf",
       "description": "NETCONF client library",
-      "repo_url": "https://github.com/orchestron-orchestrator/netconf"
+      "repo_url": "https://github.com/stratoweave/netconf"
     },
     {
       "name": "pipe",
@@ -48,7 +53,7 @@
     {
       "name": "yang",
       "description": "A YANG lib including a parser, compiler, instance data structures and more",
-      "repo_url": "https://github.com/orchestron-orchestrator/acton-yang"
+      "repo_url": "https://github.com/stratoweave/acton-yang"
     },
     {
       "name": "zlib",
