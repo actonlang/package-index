@@ -26,6 +26,11 @@
       "repo_url": "https://github.com/orchestron-orchestrator/netconf"
     },
     {
+      "name": "pipe",
+      "description": "Byte stream pipe abstraction with an in-process actor pipe",
+      "repo_url": "https://github.com/actonlang/pipe"
+    },
+    {
       "name": "snappy",
       "description": "Snappy compression",
       "repo_url": "https://github.com/actonlang/acton-snappy"
